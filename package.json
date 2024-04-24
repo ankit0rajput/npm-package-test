@@ -14,7 +14,7 @@
   "dependencies": {
     "@types/express": "^4.17.21",
     "express": "^4.19.2",
-    "nodejs-ts-rcc": "^1.0.0"
+    "nodejs-ts-rcc": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
