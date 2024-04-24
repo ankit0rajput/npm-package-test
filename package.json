@@ -4,9 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "start": "npm run build && nodemon dist/index.js --exec ts-node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +16,13 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
     "nodemon": "^3.1.0",
+    "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
     "typescript": "^5.4.5"
   }
 }
